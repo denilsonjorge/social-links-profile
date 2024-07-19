@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter",arial;
+}
+
+.container{
+    background: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .profile{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 12%);
+}
+.container .profile img{
+    width: 100px;
+    border-radius: 100%;
+}
+.container .profile h2{
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 100%);
+}
+.container .profile h3{
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+}
+.container .profile p{
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+    padding-block: 10px;
+}
+.container .profile button{
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 20%);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s background,color;
+}
+.container .profile button:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
